@@ -37,6 +37,18 @@ pics{
     font-size: 1.rem;
 }
 
+.didascalie{
+    margin-bottom:20px;
+}
+
+.text{
+    margin-top:20px;
+}
+
+ul{
+margin: 20px 20px;
+}
+
 /* TABELLA */
 
 thead{
@@ -51,21 +63,51 @@ thead{
 
 table{
     border-spacing: 0;
-    max-width: 50%;
+    margin-top:20px;
 }
 
 .first, .last{
     background-color: #b1e5f2;
 }
+
+.consigli{
+    color: grey;
+    padding-top:25px;
+}
 /* IMMAGINI FINALI DELLA PAGINA */
-.bg-photo{
-    background-image: url('../img/monitor.jpg');
-    background-repeat: no-repeat;
+footer h3{
+    color:#808080;
+    margin-top:30px;
+}
+
+ .foto-finale{
+    background-image:url('../img/monitor.jpg');
     background-size: contain;
-    width: 400px;
-    height: 400px;
+    width: 270px;
+    height: 200px;
+    margin-top:15px;
+    padding-bottom:10px;
+}
+
+.foto-finale p{
     color: white;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 40px;
+    padding-top:10px;
+    padding-left:5px;
+    font-size: 22px;
+}
+
+.foto-finale2{
+    background-image: url('../img/graph.jpg');
+    background-size: contain;
+    width: 270px;
+    height: 200px;
+    margin-top:15px;
+    padding-bottom:10px;
+}
+
+.foto-finale2 p{
+    color: white;
+    padding-top:10px;
+    padding-left:5px;
+    font-size: 22px;
 }
