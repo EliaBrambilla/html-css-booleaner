@@ -1,0 +1,71 @@
+/* RESET CSS BASE */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* HEADER E LOGO */
+header{
+    background-image: url('../img/pattern.png');
+    background-size: 20%;
+    background-color: #4EA0FF;
+    padding-top:30px;
+}
+
+#logo{
+    height: 80px;
+}
+
+pics{
+    display:block;
+      margin:0px auto;
+      text-align:center;
+}
+
+/* CONTENITORE PRINCIPALE */
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.text-blue{
+    color: #4EA0FF;
+}
+
+.data{
+    font-size: 1.rem;
+}
+
+/* TABELLA */
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+    
+}
+
+.column-20{
+    width: 20%;
+}
+
+table{
+    border-spacing: 0;
+    max-width: 50%;
+}
+
+.first, .last{
+    background-color: #b1e5f2;
+}
+/* IMMAGINI FINALI DELLA PAGINA */
+.bg-photo{
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 400px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
